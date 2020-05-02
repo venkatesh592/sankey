@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sankey"
+  >
+    <div
+      class="usage"
+    >
+      Usage: (Feed the Data)
+      <br />
+      1) Create Data point (should be unique)
+      <br />
+      2) Create Link between them
+      <br />
+      Example: Salary &gt; Home [3000] &gt; [Electricity - 1000, Grocery - 2000]
+      <br />
+      Steps:
+      <br />
+      1) Create four data points with names like [Salary, Home, Electricity, Grocery]
+      <br />
+      2) Create three links between them
+      <br />
+      a) source: Salary, target: Home, Expenditure: 3000 b) source: Home, target: Electricity, Expenditure: 1000 c) source: Home, target: Grocery, Expenditure: 2000
+      <br />
+      You can see graph below based on inputs. (you can also do edit and delete options as well)
+      <br />
+      Note: Description only availalebe in English
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="dataPoint"
+      >
+        <span>
+          Create Entry
+        </span>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline input"
+        >
+          <input
+            class="MuiInputBase-input MuiInput-input"
+            placeholder="Usage Name Placeholder"
+            type="text"
+            value=""
+          />
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Create
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="dataLink"
+      >
+        <span>
+          Link Expenditure
+        </span>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline input"
+        >
+          <input
+            class="MuiInputBase-input MuiInput-input"
+            placeholder="Source Placeholder"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline input"
+        >
+          <input
+            class="MuiInputBase-input MuiInput-input"
+            placeholder="Target Placeholder"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline input"
+        >
+          <input
+            class="MuiInputBase-input MuiInput-input"
+            placeholder="Expenditure"
+            type="text"
+            value=""
+          />
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Create
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="container"
+    />
+  </div>
+</DocumentFragment>
+`;

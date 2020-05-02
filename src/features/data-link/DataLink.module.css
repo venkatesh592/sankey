@@ -1,0 +1,12 @@
+.dataLink {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input {
+  width: 90%;
+}

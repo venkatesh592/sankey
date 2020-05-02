@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import sankeyReducer from '../features/sankey/sankeySlice';
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    options: sankeyReducer,
   },
 });

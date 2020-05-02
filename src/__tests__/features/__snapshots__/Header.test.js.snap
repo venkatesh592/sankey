@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="header"
+  >
+    <a
+      href="#default"
+    >
+      Centime
+    </a>
+    <div
+      class="MuiInputBase-root MuiInput-root MuiInput-underline select"
+      data-testid="slelect-lang"
+    >
+      <div
+        aria-haspopup="listbox"
+        aria-labelledby="demo-simple-select-label demo-simple-select"
+        class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+        id="demo-simple-select"
+        role="button"
+        tabindex="0"
+      >
+        English
+      </div>
+      <input
+        type="hidden"
+        value="en"
+      />
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSelect-icon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+  </div>
+</DocumentFragment>
+`;

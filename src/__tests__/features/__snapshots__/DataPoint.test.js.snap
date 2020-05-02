@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="dataPoint"
+  >
+    <span>
+      Create Entry
+    </span>
+    <div
+      class="MuiInputBase-root MuiInput-root MuiInput-underline input"
+    >
+      <input
+        class="MuiInputBase-input MuiInput-input"
+        placeholder="Usage Name Placeholder"
+        type="text"
+        value=""
+      />
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Create
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;

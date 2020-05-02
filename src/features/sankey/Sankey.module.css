@@ -1,0 +1,16 @@
+.sankey {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.usage {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 1.6;
+  padding: 15px;
+}

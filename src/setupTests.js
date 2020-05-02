@@ -3,3 +3,11 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom/extend-expect';
+
+jest.mock('react-i18next', () => ({
+  useTranslation: () => ({
+    t: key => key,
+    i18n: { changeLanguage: lang => lang }
+  })
+}))
+jest.mock('echarts-for-react', () => () => (null));
