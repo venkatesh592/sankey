@@ -81,9 +81,10 @@ export const sankeySlice = createSlice({
       // immutable state based off those changes
       const { data, links } = getDataAndLinks(state)
       const oldName = data[index].name
-      const filteredLinks = links.filter(link => (link.source === oldName || link.target === oldName))
-      filteredLinks.forEach((link, index) => {
-        links.splice(index, 1)
+      links.forEach((link, index) => {
+        if (link.source === oldName || link.target === oldName) {
+          links.splice(index, 1)
+        }
       })
       data.splice(index, 1)
     },
