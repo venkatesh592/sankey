@@ -91,11 +91,15 @@ export const sankeySlice = createSlice({
     removeDataLink: (state, { payload: { index } }) => {
       const { links } = getDataAndLinks(state)
       links.splice(index, 1)
+    },
+    updateAmount: (state, { payload: { index, amount } }) => {
+      const { links } = getDataAndLinks(state)
+      links[index]['value'] = amount
     }
   },
 });
 
-export const { setSeriesData, setSeriesLink, updateDataPointName, removeDataPoint, removeDataLink } = sankeySlice.actions;
+export const { setSeriesData, setSeriesLink, updateDataPointName, removeDataPoint, removeDataLink, updateAmount } = sankeySlice.actions;
 
 export const selectDataPoints = state => getDataAndLinks(state.options).data;
 export const selectDataLinks = state => getDataAndLinks(state.options).links;

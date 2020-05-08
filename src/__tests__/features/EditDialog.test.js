@@ -9,7 +9,7 @@ let container = null
 beforeEach(() => {
   container = render(
     <Provider store={store}>
-      <EditDialog open={true} onClose={() => {}} selectedValue={{}} />
+      <EditDialog open={true} onClose={() => {}} selectedValue={{ type: 'data'}} />
     </Provider>
   );
 })
